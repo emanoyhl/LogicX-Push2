@@ -8,8 +8,13 @@ python3 -m pip install -r requirements.txt
 python3 app.py
 
 ```
+
+however, if using an externally managed environment then you must use:
+`python3 -m venv .venv
+source .venv/bin/activate`
+
 updated interface and controls to use new Osc file in Docs.   (WIP)
-Tested on Logic 11 / Mac OS 13.6.6
+Tested on Logic Pro X 11.1.2 / Mac OS 15.4 M1
 
 
 LogicX-Push2 allows your ableton PUSH2 to have more functionality in Logic Pro beyond the default "user" mode.
@@ -67,3 +72,5 @@ Here are some notes about how to use LogicX-Push2:
 * Customize track contents editing the `track_listing.json` file. What comes by default is what I use in my setup.
 * Press `SHIFT + Long press / User BUTTON` button to deactivate the display (useful for slow computers running LogicX-Push2).
 * Press `Add device` button to enter *Preset selection mode* (or hold the button to only momentarily activate that mode). While in this mode, press any of the 64 pads to send a program change message to the corresponding track synth with values 0-63. This allows you to select one of the first 64 presets for the current bank. Long-press one of the pads to mark this preset as "favourite" and highlight it (this info is saved). Long-press again to "unfavorite" the preset. Use left and right arrows to move to the next 64 presets (64-127) and iterate through available banks.
+
+to end program `ctrl+c` and then power off Push 2
