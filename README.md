@@ -10,8 +10,8 @@ python3 app.py
 ```
 
 however, if using an externally managed environment then you must use:
-`python3 -m venv .venv
-source .venv/bin/activate`
+`python3 -m venv .venv`
+`source .venv/bin/activate`
 
 updated interface and controls to use new Osc file in Docs.   (WIP)
 Tested on Logic Pro X 11.1.2 / Mac OS 15.4 M1
